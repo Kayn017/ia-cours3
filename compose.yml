@@ -1,0 +1,10 @@
+services:
+  app:
+    image: test
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+        - ./datasets:/app/Datasets
+        - ./dataset:/app/dataset
+        - /home/tgimenez/Seafile/Cours/CNAM/A3/IA/Exos/Cours 2/input_images/input_images:/app/data

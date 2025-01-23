@@ -1,0 +1,9 @@
+Pillow
+ruff
+pre-commit
+pandas
+scikit-learn
+seaborn
+matplotlib
+pytest
+pytest-cov
